@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback form</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+	<body>
+		<div class="wrapper">
+			<h1>Give us feedback</h1>
+
+				<form method="post" action="http://localhost/feedback.php">
+					<input type="text" name="name" placeholder="name" required>
+					<input type="email" name="email" placeholder="email" required>
+						<br>
+					<input type="text" name="feedback" placeholder="Your feedback" required>
+						<br>
+					<h4>Enter two numbers, which sum would be 10</h4>
+					<input type="number" name="num" placeholder="enter a number" required>
+
+					<input type="number" name="num2" placeholder="enter another number" required>
+
+						<br>			
+					<input type="submit" name="submit">			
+				</form>
+		</div>
+	</body>
+</html>
